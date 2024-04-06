@@ -1,7 +1,13 @@
+#Using admin:password base 64
 GET localhost:8080/authenticate
 Accept: application/json
-Authorization: Basic dXNlcjpwYXNzd29yZA==
+Authorization: Basic YWRtaW46cGFzc3dvcmQ=
 
 ###
 GET http://localhost:8080/public
 Accept: application/json
+
+###
+GET localhost:8080/authorize
+Accept: application/json
+Authorization: Basic ZGV2ZWxvcGVyOmRldmVsb3Blcg==
