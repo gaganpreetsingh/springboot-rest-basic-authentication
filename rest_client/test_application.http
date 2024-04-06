@@ -1,0 +1,7 @@
+GET localhost:8080/authenticate
+Accept: application/json
+Authorization: Basic dXNlcjpwYXNzd29yZA==
+
+###
+GET http://localhost:8080/public
+Accept: application/json
